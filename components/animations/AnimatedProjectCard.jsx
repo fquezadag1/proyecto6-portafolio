@@ -51,17 +51,6 @@ const Project = ({
             >
                 <h3 className="font-bold text-lg text-white">{title}</h3>
                 <p className="text-gray-400">{description}</p>
-                {/* <div>
-          {tecnologies.map((tecnology) => (
-            <Image
-              key={tecnology}
-              src={`/images/tecnologies/${tecnology}.png`}
-              alt={tecnology}
-              width={32}
-              height={32}
-            />
-          ))}
-        </div> */}
             </div>
             <div className="absolute hidden group-hover:flex bg-gray-900/80 w-full left-0 top-0 h-full transition-all flex-col justify-around items-center p-12 gap-2 backdrop-blur-sm">
                 <h3 className="text-white">

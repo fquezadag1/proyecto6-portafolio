@@ -1,15 +1,12 @@
 'use client'
 import React from 'react'
 import {motion}  from "framer-motion";
+import AnimationEffect from '@/components/animations/AnimationEffect';
 
 
 const contact = () => {
     return (
-        <motion.div
-        transition={{ duration: 0.5, delay: 0.7 }}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-      >
+        <AnimationEffect>
         <section>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
@@ -33,7 +30,7 @@ const contact = () => {
                 </form>
             </div>
         </section>
-    </motion.div>
+    </AnimationEffect>
     )
 }
 
