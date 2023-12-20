@@ -1,17 +1,15 @@
 import React from 'react'
-import Project from '@/components/animations/AnimatedProjectCard'
+import Project from '@/components/ProjectCard'
+import AnimationEffect from '@/components/animations/AnimationEffect'
 
 const projects = () => {
   return (
-    <div
-      className="w-full mx-auto"
-    >
-      <h1
-        className="text-4xl font-bold text-center text-white mt-5"
-      >
-        Mis proyectos
-      </h1>
-
+    <div className="w-full mx-auto">
+      <AnimationEffect>
+        <h1 className="text-4xl font-bold text-center mt-5">
+          Mis proyectos
+        </h1>
+      </AnimationEffect>
       <div className="flex flex-wrap p-10 md:p-36 justify-around items-center">
         <Project
           title="Landing Page"
@@ -48,7 +46,6 @@ const projects = () => {
           urlDespliegue=""
           urlRepositorio=""
         />
-
       </div>
     </div>
   )
