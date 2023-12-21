@@ -44,7 +44,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 justify-items-center">
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="The logo icon for CSS3" title="CSS 3" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5" />
-            <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="The logo icon for TailwindCSS" title="Twilwind CSS" />
+            <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="The logo icon for TailwindCSS" title="Tailwind CSS" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="The logo icon for GitHub" title="GitHub" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="The logo icon for NPM" title="NPM" />
@@ -53,7 +53,7 @@ export default function Home() {
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="The logo icon for MongoDB" title="MongoDB" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="The logo icon for Boostrap" title="Boostrap" />
             <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" alt="The logo icon for Firebase" title="Firebase" />
-            <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="The logo icon for Ex´ress" title="Express" />
+            <Skill className="p-2 md:p-4 lg:p-6" source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="The logo icon for Express" title="Express" />
           </div>
         </div>
       </main>
