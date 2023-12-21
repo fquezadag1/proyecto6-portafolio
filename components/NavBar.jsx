@@ -11,17 +11,17 @@ export const NavBar = () => {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link href="/about" color="foreground" underline="hover">
-            About Me
+            Sobre Mí
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link href="/projects" underline="hover" color="foreground">
-            Projects
+            Proyectos
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link href="/contact" underline="hover" color="foreground"  >
-            Contact
+            Contacto
           </Link>
         </NavbarItem>
       </NavbarContent>

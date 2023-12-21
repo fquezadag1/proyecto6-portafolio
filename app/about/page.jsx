@@ -16,20 +16,20 @@ const about = () => {
               <div className="bg-white shadow rounded-lg p-6">
                 <div className="flex flex-col items-center">
                   <img src="https://i.imgur.com/4U5tBXC.png" className="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0" />
-                  <h1 className="text-xl font-bold">John Doe</h1>
-                  <p className="text-gray-700">Software Developer</p>
+                  <h1 className="text-xl font-bold">Felipe Quezada</h1>
+                  <p className="text-gray-700">Ingeniero Civil en Informatica</p>
                 </div>
                 <hr className="my-6 border-t border-gray-300" />
                 <div className="flex flex-col">
                   <ul className="list-none p-0">
                     <li className="mb-2 flex items-center">
-                      <MdEmail className="mr-2" /> JavaScript
+                      <MdEmail className="mr-2" /> fquezadag1@gmail.com
                     </li>
                     <li className="mb-2 flex items-center">
-                      <FaPhoneAlt className="mr-2" /> React
+                      <FaPhoneAlt className="mr-2" />+5699999999
                     </li>
                     <li className="mb-2 flex items-center">
-                      <IoLocationSharp className="mr-2" /> Node.js
+                      <IoLocationSharp className="mr-2" /> Concepción, Chile
                     </li>
                   </ul>
                 </div>
@@ -37,54 +37,21 @@ const about = () => {
             </div>
             <div className="col-span-4 sm:col-span-9">
               <div className="bg-white shadow rounded-lg p-6">
-                <h2 className="text-xl font-bold mb-4">About Me</h2>
-                <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est
-                  vitae tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas
-                  suscipit. Nunc finibus vel ante id euismod. Vestibulum ante ipsum primis in faucibus orci luctus
-                  et ultrices posuere cubilia Curae; Aliquam erat volutpat. Nulla vulputate pharetra tellus, in
-                  luctus risus rhoncus id.
+                <h2 className="text-xl font-bold mb-4">Sobre Mí</h2>
+                <p className="text-gray-700">Soy Igeniero civil en Informatica de profesión, las oportunidades laborales hasta ahora me han alejado del camino de la programación, 
+                por eso he decidido comenzar a dar mis primeros pasos en este mundo inmenso del desarrollo web.
                 </p>
-                <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2>
+                <h2 className="text-xl font-bold mt-6 mb-4">Estudios</h2>
                 <div className="mb-6">
                   <div className="flex justify-between flex-wrap gap-2 w-full">
-                    <span className="text-gray-700 font-bold">Web Developer</span>
+                    <span className="text-gray-700 font-bold">Desarrollo web Full Stack</span>
                     <p>
-                      <span className="text-gray-700 mr-2">at ABC Company</span>
-                      <span className="text-gray-700">2017 - 2019</span>
+                      <span className="text-gray-700 mr-2">en Universidad del Desarrollo </span>
+                      <span className="text-gray-700">Abril 2023 - Diciembre 2023</span>
                     </p>
                   </div>
                   <p className="mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae
-                    tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas
-                    suscipit.
-                  </p>
-                </div>
-                <div className="mb-6">
-                  <div className="flex justify-between flex-wrap gap-2 w-full">
-                    <span className="text-gray-700 font-bold">Web Developer</span>
-                    <p>
-                      <span className="text-gray-700 mr-2">at ABC Company</span>
-                      <span className="text-gray-700">2017 - 2019</span>
-                    </p>
-                  </div>
-                  <p className="mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae
-                    tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas
-                    suscipit.
-                  </p>
-                </div>
-                <div className="mb-6">
-                  <div className="flex justify-between flex-wrap gap-2 w-full">
-                    <span className="text-gray-700 font-bold">Web Developer</span>
-                    <p>
-                      <span className="text-gray-700 mr-2">at ABC Company</span>
-                      <span className="text-gray-700">2017 - 2019</span>
-                    </p>
-                  </div>
-                  <p className="mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae
-                    tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas
-                    suscipit.
+                    Bootcamp que abarca todos los contenidos necesarios dentro del stack MERN para el desarrollo tanto del frontend como del backend de una aplicacion web
                   </p>
                 </div>
               </div>
